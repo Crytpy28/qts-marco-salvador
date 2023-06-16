@@ -13,3 +13,13 @@ Deno.test("Teste de assertions (API)",()=>{
     assertEquals(aluno, "Cróvis José");
     assertStringIncludes(aluno,"José");
 })
+Deno.test("Testando números", ()=>{
+
+    assertArrayIncludes(numeros, [8, 33]);
+})
+Deno.test("Testando array do professor (API)", ()=>{
+
+    assertArrayIncludes(professores,
+        ["Davi","Lais","Alan"],
+        "Opa! Algo deu errado!")
+})

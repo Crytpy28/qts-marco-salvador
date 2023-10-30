@@ -1,0 +1,244 @@
+{
+  "id": "6a1ed8af-e1d9-4e08-ad17-1dd1be16dd1a",
+  "version": "2.0",
+  "name": "I_wanna_dance_teste",
+  "url": "https://www.spacejam.com/1996/",
+  "tests": [{
+    "id": "dbd1d36e-ca3d-4322-b614-f997d536b68b",
+    "name": "Space_jam_teste",
+    "commands": [{
+      "id": "a605c418-8bf5-4f67-a104-b7f6fcd327ac",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.spacejam.com/1996/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e51b1f9b-07e9-411c-94ad-194d24b76338",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c57920fd-c240-4652-875a-ea4caba01eb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(4) > a:nth-child(3) > img",
+      "targets": [
+        ["css=td:nth-child(4) > a:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='Lunar Tunes']", "xpath:img"],
+        ["xpath=//td[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4f7c59-6810-4345-8211-6d618b79393f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "4180ebc2-5802-4c4c-b2ee-1fdfefd38cb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=blockquote",
+      "targets": [
+        ["css=blockquote", "css:finder"],
+        ["xpath=//blockquote", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3788d59c-34fc-4a9f-a7fd-a482a3e4ec1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=area:nth-child(1)",
+      "targets": [
+        ["css=area:nth-child(1)", "css:finder"],
+        ["xpath=//area", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "489a279b-754f-4a20-8957-adcdd9c93148",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Seal",
+      "targets": [
+        ["linkText=Seal", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Seal')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'seal.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Seal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2147a447-a045-477b-ac85-9c66b46ccaad",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb1ff2a5-0cb7-4fbf-9b7c-7ee0b80ac443",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "41822cda-d417-443e-8d6d-3a23b5ae3cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(6)",
+      "targets": [
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(@href, '../jamcentral/jamcentralframes.html')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "864f4314-6ee7-41c1-bf93-f4056817abee",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecbf5f38-d0a6-4d2b-adac-df8725e7169a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "022112fc-7ffc-4e4d-a093-93537073901a",
+      "comment": "",
+      "command": "click",
+      "target": "css=area:nth-child(1)",
+      "targets": [
+        ["css=area:nth-child(1)", "css:finder"],
+        ["xpath=//area", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "786dfbb0-dc78-4095-aefd-9106f12376cf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eae42d1-0475-4238-acff-9dcb387b1852",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "678cf71d-90f3-48ce-8b11-d4176a9ac620",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(46) > img",
+      "targets": [
+        ["css=a:nth-child(46) > img", "css:finder"],
+        ["xpath=//img[@alt='credits']", "xpath:img"],
+        ["xpath=//a[12]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5355c22c-9dc9-4bf3-a07b-257c1defd107",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cbb339c-450f-4556-a4e0-bd8faaa2741f",
+      "comment": "",
+      "command": "click",
+      "target": "css=blockquote",
+      "targets": [
+        ["css=blockquote", "css:finder"],
+        ["xpath=//blockquote", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c37978e5-3cab-48d1-8c83-5a0b4a8ae426",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(4)",
+      "targets": [
+        ["css=center:nth-child(4)", "css:finder"],
+        ["xpath=//center", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05938dab-b31f-4ac7-ac96-ba3c45596706",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f807e66-20fa-45f3-9de6-45770f7aa6ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(34) > img",
+      "targets": [
+        ["css=a:nth-child(34) > img", "css:finder"],
+        ["xpath=//img[@alt='press box']", "xpath:img"],
+        ["xpath=//a[9]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "570a5bf4-cb7e-4da0-99ca-8f81f168c1b2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "03e5a230-a39d-4564-81d4-de20349e358d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > img",
+      "targets": [
+        ["css=a > img", "css:finder"],
+        ["xpath=//img[@alt='To the Jam!']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "35066a35-415e-4f07-a635-0b9c25cc9db5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbd1d36e-ca3d-4322-b614-f997d536b68b"]
+  }],
+  "urls": ["https://www.spacejam.com/1996/"],
+  "plugins": []
+}
